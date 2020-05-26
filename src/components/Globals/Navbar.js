@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { FaStore } from "react-icons/fa"
+import { FaShoppingCart, FaStore } from "react-icons/fa"
 export default class Navbar extends Component {
   state = {
     navbarOpen: false,
@@ -50,7 +50,6 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-
             {/* <li className="nav-item ml-sm-5">
               <FaShoppingCart className="cart-icon" />
             </li> */}

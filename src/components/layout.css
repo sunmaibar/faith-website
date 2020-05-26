@@ -18,6 +18,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Courier New", Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
@@ -41,6 +42,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
@@ -62,8 +64,4 @@ h6 {
 .footer h3 {
   font-size: 1.25rem;
   color: var(--mainBrown);
-}
-.menu,
-.contact {
-  background: var(--mainGrey);
 }
