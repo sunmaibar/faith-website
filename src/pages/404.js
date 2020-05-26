@@ -10,5 +10,6 @@ const NotFoundPage = () => (
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
   </Layout>
 )
+// 404
 
 export default NotFoundPage
