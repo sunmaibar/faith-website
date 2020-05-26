@@ -10,10 +10,10 @@ export default function Info() {
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
               ✔主賣德國原裝進口商品 絕無山寨仿冒品，只賣在台現貨
-              提前售完才需預購。 <br /> 小本經營，如有喜歡的商品請聯絡管理員
+              提前售完才需預購。 <br /> >>請先加入國際閒妻良母粉絲團
             </p>
             <Link to="/about/">
-              <button className="btn btn-yellow">關於賢妻良母</button>
+              <button className="btn btn-yellow">關於</button>
             </Link>
           </div>
         </div>
