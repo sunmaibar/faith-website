@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Roboto&display=swap");
+:root {
+  --mainBrown: #2d1e1f;
+  --mainYellow: rgb(255, 158, 9);
+  --mainGrey: #ece8dc;
+  --mainWhite: #fff;
+  --mainDark: #222;
+}
+
+body {
+  background: var(--mainWhite);
+  color: var(--mainDark);
+  font-family: "Noto Sans TC", "Roboto", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem !important;
+}
+
+.text-yellow {
+  color: var(--mainYellow);
+}
+.cart-icon {
+  cursor: pointer;
+  color: var(--mainYellow);
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+.home-icon {
+  cursor: pointer;
+  color: var(--mainDark);
+  font-size: 2rem;
+}
+.default-background,
+.about-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+.about-background {
+  min-height: 60vh;
+}
+
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainWhite) !important;
+}
+.footer {
+  background: var(--mainGrey);
+}
+.footer h3 {
+  font-size: 1.25rem;
+  color: var(--mainBrown);
+}
